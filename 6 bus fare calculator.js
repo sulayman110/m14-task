@@ -10,6 +10,7 @@ let ticketPrice = 800 ;
 let age =;
 const students = true ;
 
-if(age < 10){
-    console.log(free)
+if(students === true){
+    ticketPrice = ticketPrice/2;
 }
+console.log(ticketPrice)
